@@ -1,0 +1,131 @@
+/***************navbar *****************/
+.head-row {
+  background-color: cadetblue;
+  height: 50vh;
+  padding: 5%;
+}
+.left-nav {
+  background-color: orange;
+}
+.right-nav {
+  background-color: yellowgreen;
+  text-align: center;
+  padding-top: 20px;
+}
+.mylist  {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  text-decoration: none;
+}
+a{
+  color: black;
+
+}
+.mylist a:hover {
+  text-decoration: none;
+  color: blue;
+  font-weight: bold;
+}
+/***************navbar *****************/
+/***************header *****************/
+.container {
+  text-align: center;
+}
+.display-4 {
+  color: blue;
+  font-size: 30px;
+}
+.lead {
+  font-size: 15px;
+}
+/***************header *****************/
+/*****************cards ****************/
+
+.card {
+  margin: 5px 10px;
+}
+.body {
+  text-align: center;
+}
+video {
+  pointer-events: none;
+}
+/*****************cards ****************/
+/*****************carousel starts ****************/
+.gal-1 {
+  margin: 5%;
+}
+video {
+  pointer-events: none;
+}
+/*****************carousel ends ****************/
+/************footer starts *************/
+/* apply flex property in media queries  */
+/* .get-connected{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+} */
+.Contact-Us {
+  font-size: 15px;
+}
+.facebook {
+  color:blue;
+}
+/* this color are applied only when we give class in <i>  ex. <i class="fab fa-facebook-f facebook"></i> */
+.twitter {
+  color: rgb(39, 170, 223);
+}
+.google-plus {
+  color: red;
+}
+.instagram {
+  color: rgb(206, 12, 125);
+}
+.linkedin {
+  color: rgb(3, 3, 71);
+}
+.github {
+  color: orangered;
+}
+.facebook,
+.twitter,
+.google-plus,
+.instagram,
+.linkedin,
+.github {
+  margin: 5px;
+  font-size: 20px;
+}
+/* we have added classes to all footer elements then applied css properties  */
+.c-info,
+.languages,
+.useful-links,
+.contact-details {
+  text-align: initial;
+}
+/************footer ends *************/
+
+
+@media screen and (min-width: 576px) {
+  
+  .vid-cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+   } 
+}
+@media screen and(min-width:576px) {
+  .get-connected{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  
+}
+
+
