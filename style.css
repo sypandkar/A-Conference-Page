@@ -49,9 +49,9 @@ a{
 .body {
   text-align: center;
 }
-video {
+/* video {
   pointer-events: none;
-}
+} */
 /*****************cards ****************/
 /*****************carousel starts ****************/
 .gal-1 {
